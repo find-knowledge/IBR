@@ -410,7 +410,7 @@ def main():
     parser.add_argument("--memo", default='running IBR model ', type=str, required=False)
     parser.add_argument("--data_dir", default='./data/depth-5', type=str, required=False)
     parser.add_argument("--model_type", default='bert', type=str, required=False)
-    parser.add_argument("--model_name_or_path", default='../PRover_new_22/roberta-large', type=str, required=False)
+    parser.add_argument("--model_name_or_path", default='./roberta-large', type=str, required=False)
     parser.add_argument("--evaluate_model_name_or_path", default='./output/d5/pytorch_model.bin', type=str, required=False)
 
     parser.add_argument("--task_name", default='rr', type=str, required=False)
