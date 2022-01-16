@@ -1,6 +1,7 @@
 # IBR
 Installation:  
-IBR is tested on Python 3.6.2.
+IBR is tested on Python 3.6.2.  
+pip install -r requirements.txt
 
 Download the dataset from:  
 http://data.allenai.org/rule-reasoning/rule-reasoning-dataset-V2020.2.4.zip  
