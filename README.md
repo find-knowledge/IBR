@@ -1,4 +1,9 @@
 # IBR
+PyTorch code for NAACL 2022 paper:
+
+Interpretable Proof Generation via Iterative Backward Reasoning
+
+曲瀚昊(Hanhao Qu), 曹雨(Yu Cao), 高俊(Jun Gao), 丁亮(Liang Ding), 徐睿峰(Ruifeng Xu)
 ## Installation:  
 IBR is tested on Python 3.6.2.  
 pip install -r requirements.txt
