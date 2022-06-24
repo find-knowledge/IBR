@@ -4,6 +4,7 @@ PyTorch code for NAACL 2022 paper:
 Interpretable Proof Generation via Iterative Backward Reasoning
 
 曲瀚昊(Hanhao Qu), 曹雨(Yu Cao), 高俊(Jun Gao), 丁亮(Liang Ding), 徐睿峰(Ruifeng Xu)
+
 ## Installation:  
 IBR is tested on Python 3.6.2.  
 pip install -r requirements.txt
@@ -31,3 +32,6 @@ Run the main_natlang.py.
 
 ## Testing IBR on ParaRules:  
 Change do_train setting to False and do_prediction to True in main_natlang.py(lines 420 and 422). Run the main_natlang.py.
+
+## Trained Models
+We release our trained IBR models on depth-5 dataset and ParaRules dataset [here](https://drive.google.com/file/d/1hv5Yk1cRKXL0oF2HTnKxrhWECtyydZkX/view?usp=sharing).
