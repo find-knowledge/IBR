@@ -32,6 +32,7 @@ Run the main_natlang.py.
 
 ## Testing IBR on ParaRules:  
 Change do_train setting to False and do_prediction to True in main_natlang.py(lines 420 and 422). Run the main_natlang.py.
+
 The linked download dataset, which does not include data such as turk-questions-train-mappings.tsv, can be found in the Supplementary Data and Code folder. Also it was recently discovered that in the original model code of ParaRules, the question answer and strategy prediction classification used the RobertaClassificationHead structure (it is a two linear layer structure, the main experiment in the paper is a one linear layer), so to reproduce the results of the experiments on ParaRules, the model files are also in the Supplementary Data and Code folder ( Only for reproducing the ParaRules results using the uploaded model, the model training is still using the previously uploaded code).
 
 ## Trained Models
